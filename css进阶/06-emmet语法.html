@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            font-size: 16px;
+            font-weight: 700;
+            width: 500px;
+            height: 100px;
+            background-color: #fff;
+            line-height: 3em;
+            text-align: center;
+            margin:0  auto;
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <h1></h1>
+
+    <!--生成div 带类名  -->
+    <div class="box"></div>
+    <p class="box"> </p>
+
+    <div id="box"></div>
+    <p id="box"></p>
+
+    <p class="red" id="one"></p>
+
+    <!-- 同级 div+p -->
+    <div></div>
+    <p></p>
+
+    <!-- 父子级 ul>li  -->
+    <ul>
+        <li></li>
+    </ul>
+
+    <!-- ul有3个li ul>li*3 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <!--ul有3个li li内容是111   ul>li{111}*3-->
+    <ul>
+        <li>111</li>
+        <li>111</li>
+        <li>111</li>
+    </ul>
+
+    <!--ul有3个li li内容是1,2,3 ul>li{$}*3 -->
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+
+</body>
+</html>
